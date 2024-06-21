@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #000;
+    height: 24rem;
+    width: 30rem;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+    user-select: none;
+}
+.clock{
+    font-size: 4.5rem;
+}
